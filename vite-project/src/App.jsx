@@ -40,8 +40,22 @@ const Box = (props) => {
 };
 
 /*Creating another component */
+/*children is the prompt to pass text btwn pair tags 
+to reference a reusable container like that text wants the pink MyComponent layout*/
 const MyComponent = (props) => {
-  return <div>goodbye</div>;
+  const { children, bgColor, height } = props;
+
+  return (
+    <div
+      style={{
+        /* specify MyComponent’s features. style{{} inside <div> */
+        background: bgColor,
+        height: "200px",
+      }}
+    >
+      {children}
+    </div>
+  );
 };
 
 function App() {
@@ -60,7 +74,9 @@ function App() {
         textColor="Lavender" /*the prop corresponds to what's destructured there */
         large={false} /* set to false so apply font size 12 px */
       />
-      text inside the div tags
+      <MyComponent bgColor="Pink" height={120}>
+        text between pair tags
+      </MyComponent>
     </div>
   );
 }
