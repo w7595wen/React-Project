@@ -33,6 +33,11 @@ function App() {
     bgColor='CornflowerBlue' 
     textColor= 'Lavender'                                 /*the prop corresponds to what's destructured there */
     />
+
+    <Box label= 'hi' 
+    bgColor='Black' 
+    textColor= 'Lavender'                                 /*the prop corresponds to what's destructured there */
+    />
   </div>;                                  
 };
 
