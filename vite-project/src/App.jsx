@@ -15,12 +15,12 @@ const Description = () => {                 /*start description tag */
   return <div>Enter description here</div>;
 };
 
-const Box = (props) => {                                                 /*tells what type of data this variable is (JS object */
-  const {label, bgColor} = props;                                       /* destructure things like label, bgcolor */
-  return <div style={{                                                  /* use built-in style prop on this div */                                                /* open up 2 sets of {}, 1 to start evaluating JS */
-        background: bgColor                                           /* another st of {} is a plain old JS object */
-         }}
-    >
+const Box = (props) => {                                                 /* tells what type of data this variable is */
+  const {label, bgColor, textColor} = props;                             /* destructure things like label, bgcolor */
+  return <div style={{                                                  /* use built-in style prop on this div */  
+        background: bgColor,
+        color: textColor                                           /* another st of curly brackets is a plain old JS object */
+         }}>
       {label}
     </div>
 };
@@ -29,7 +29,10 @@ const Box = (props) => {                                                 /*tells
 function App() {
   const [count, setCount] = useState(0)
   return <div>
-    <Box label= 'hello' bgColor='CornflowerBlue' />
+    <Box label= 'hello' 
+    bgColor='CornflowerBlue' 
+    textColor= 'Lavender'                                 /*the prop corresponds to what's destructured there */
+    />
   </div>;                                  
 };
 
