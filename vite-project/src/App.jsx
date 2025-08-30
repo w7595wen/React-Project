@@ -21,10 +21,12 @@ const Box = (props) => {
   /* tells what type of data this variable is */
   const { label, bgColor, textColor, large } =
     props; /* destructure things like label, bgcolor */
+  console.log(large); /* returns output showing whether large ran */
   return (
     <div
       style={{
-        /* use built-in style prop on this div */ background: bgColor,
+        /* use built-in style prop on this div */
+        background: bgColor,
         color:
           textColor /* another st of curly brackets is a plain old JS object */,
         fontSize: large
@@ -37,6 +39,11 @@ const Box = (props) => {
   );
 };
 
+/*Creating another component */
+const MyComponent = (props) => {
+  return <div>goodbye</div>;
+};
+
 function App() {
   const [count, setCount] = useState(0);
   return (
@@ -44,16 +51,16 @@ function App() {
       <Box
         label="hello" /* box 1 */
         bgColor="CornflowerBlue"
-        textColor="Lavender" /*the prop corresponds to what's destructured there */
+        textColor="Lavender" /* prop corresponds to what's destructured there */
         large={true} /* set to true so apply font size 40 px */
       />
-
       <Box
         label="hi" /* box 2*/
         bgColor="Black"
         textColor="Lavender" /*the prop corresponds to what's destructured there */
         large={false} /* set to false so apply font size 12 px */
       />
+      text inside the div tags
     </div>
   );
 }
