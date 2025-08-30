@@ -77,6 +77,9 @@ function App() {
       <MyComponent bgColor="Pink" height={120}>
         text between pair tags
       </MyComponent>
+      <MyComponent bgColor="Lavender" height={40}>
+        Second block of text
+      </MyComponent>
     </div>
   );
 }
