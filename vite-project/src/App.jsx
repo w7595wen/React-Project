@@ -1,6 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
+import FancyButton from "./FancyButton";
 
 /*Write this line to import component 'MyComponent' from another file, 
 showing relative path */
@@ -34,7 +35,7 @@ const Box = (props) => {
         color:
           textColor /* another st of curly brackets is a plain old JS object */,
         fontSize: large
-          ? "40px"
+          ? "20px"
           : "12px" /* another prop is boolean expression (we call large) */,
       }}
     >
@@ -59,26 +60,28 @@ function App() {
         textColor="Lavender" /*the prop corresponds to what's destructured there */
         large={false} /* set to false so apply font size 12 px */
       />
-      <MyComponent bgColor="Pink" height={120}>
+      <MyComponent bgColor="Pink" height={10}>
         text between pair tags
       </MyComponent>
-      <MyComponent bgColor="Lavender" height={40}>
+      <MyComponent bgColor="Lavender" height={10}>
         Second block of text
       </MyComponent>
       <div>
         <div className="text-rose-300 bg-red-700">text with bg color</div>
-        <div className="text-slate-400 border-8 border-sky-500"> border</div>
-        <div className="text-slate-400 border-x-8 border-y-2 border-blue">
-          border2
-        </div>
         <div className="text-2xl bg-emerald-200 text-blue-600">three</div>
-        <div className="border-2 border-pink-400 p-8 m-4"> p & m </div>
         <div className="border-2 border-green-400 px-2 py-8"> px, py </div>
-        <div className="border-2 border-blue-400 px-2 pb-8">
-          {" "}
-          only bottom padding{" "}
-        </div>
       </div>
+      <button className="text-lg border-2 border-green-600 text-green-400 bg-sky-100 text-lg px-8 py-2 m-12, rounded-md">
+        1st
+      </button>
+      <button
+        className="m-4 bg-cyan-700 text-cyan-200 p-10 rounded-lg 
+        hover:bg-cyan-200 hover:text-cyan-700"
+      >
+        hover button
+      </button>
+      <FancyButton>click me</FancyButton>
+      <FancyButton>submit</FancyButton>
     </div>
   );
 }

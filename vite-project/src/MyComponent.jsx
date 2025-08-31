@@ -12,7 +12,7 @@ const MyComponent = (props) => {
       style={{
         /* specify MyComponent’s features. style{{} inside <div> */
         background: bgColor,
-        height: "200px",
+        height: "20px",
       }}
     >
       {children}
@@ -20,4 +20,6 @@ const MyComponent = (props) => {
   );
 };
 
+/* This line makes MyComponent available in the rest of the application
+if I choose to import it somewhere else */
 export default MyComponent;
