@@ -19,3 +19,5 @@ const MyComponent = (props) => {
     </div>
   );
 };
+
+export default MyComponent;

@@ -2,6 +2,10 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 
+/*Write this line to import component 'MyComponent' from another file, 
+showing relative path */
+import MyComponent from "./MyComponent.jsx";
+
 const Title = () => {
   console.log(
     "running Title"
@@ -39,25 +43,6 @@ const Box = (props) => {
   );
 };
 
-/*Creating another component */
-/*children is the prompt to pass text btwn pair tags 
-to reference a reusable container like that text wants the pink MyComponent layout*/
-const MyComponent = (props) => {
-  const { children, bgColor, height } = props;
-
-  return (
-    <div
-      style={{
-        /* specify MyComponent’s features. style{{} inside <div> */
-        background: bgColor,
-        height: "200px",
-      }}
-    >
-      {children}
-    </div>
-  );
-};
-
 function App() {
   const [count, setCount] = useState(0);
   return (
@@ -80,6 +65,9 @@ function App() {
       <MyComponent bgColor="Lavender" height={40}>
         Second block of text
       </MyComponent>
+      <div>
+        <div className="text-rose-300 bg-red-700">one</div>
+      </div>
     </div>
   );
 }
