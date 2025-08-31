@@ -66,7 +66,12 @@ function App() {
         Second block of text
       </MyComponent>
       <div>
-        <div className="text-rose-300 bg-red-700">one</div>
+        <div className="text-rose-300 bg-red-700">text with bg color</div>
+        <div className="text-slate-400 border-8 border-sky-500"> border</div>
+        <div className="text-slate-400 border-x-8 border-y-2 border-blue">
+          border2
+        </div>
+        <div className="text-2xl bg-emerald-200 text-blue-600">three</div>
       </div>
     </div>
   );
