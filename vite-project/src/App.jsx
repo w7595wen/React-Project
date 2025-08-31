@@ -72,6 +72,12 @@ function App() {
           border2
         </div>
         <div className="text-2xl bg-emerald-200 text-blue-600">three</div>
+        <div className="border-2 border-pink-400 p-8 m-4"> p & m </div>
+        <div className="border-2 border-green-400 px-2 py-8"> px, py </div>
+        <div className="border-2 border-blue-400 px-2 pb-8">
+          {" "}
+          only bottom padding{" "}
+        </div>
       </div>
     </div>
   );
