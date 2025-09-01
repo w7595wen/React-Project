@@ -7,18 +7,25 @@ import FancyButton from "./FancyButton";
 showing relative path */
 import MyComponent from "./MyComponent.jsx";
 
-const IMAGE_URLS = [
-  "https://github.com/w7595wen/mywebsite/blob/main/images/user.png?raw=true",
-];
+const IMAGE_URLS = ["https://static-task-assets.react-formula.com/711612.jpg"];
 
 function App() {
   const [count, setCount] = useState(0);
   return (
     <div>
+      <button>
+        <i className="fa-regular fa-circle-left"></i>
+      </button>
       <img
-        className="object-cover h-[250px] w-[200px] rounded-lg"
-        src="https://github.com/w7595wen/mywebsite/blob/main/images/user.png?raw=true"
+        className="m-8 object-cover h-[250px] w-[200px] rounded-lg"
+        src="https://static-task-assets.react-formula.com/711612.jpg"
       />
+      <button>
+        <i
+          className="m-4 text-5xl 
+        fa-solid fa-circle-chevron-left text-cyan-400 hover:text-cyan-500"
+        ></i>
+      </button>
     </div>
   );
 }
