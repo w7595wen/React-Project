@@ -16,11 +16,11 @@ const IMAGE_URLS = [
 ];
 
 function App() {
-  const [imageIndx, setImageIdx] = useState(2);
+  const [imageIndx, setImageIndx] = useState(2);
   return (
     <div>
       <div className="text-cyan-400 text-lg text-center border border-black">
-        description above pic
+        pic {imageIndx}
       </div>
       <div
         className="flex justify-center border-black items-center
@@ -28,8 +28,10 @@ function App() {
       >
         <button>
           <i
-            className="fa-regular fa-circle-left 
-        text-cyan-400 hover:text-cyan-500"
+            className="fa-regular fa-circle-left text-cyan-400 hover:text-cyan-500"
+            onClick={() => {
+              setImageIndx(imageIndx - 1);
+            }}
           ></i>
         </button>
         <img
@@ -40,6 +42,9 @@ function App() {
           <i
             className="m-4 text-lg 
         fa-regular fa-circle-right  text-cyan-400 hover:text-cyan-500"
+            onClick={() => {
+              setImageIndx(imageIndx + 1);
+            }}
           ></i>
         </button>
       </div>
