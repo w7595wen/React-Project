@@ -13,19 +13,25 @@ function App() {
   const [count, setCount] = useState(0);
   return (
     <div>
-      <button>
-        <i className="fa-regular fa-circle-left"></i>
-      </button>
-      <img
-        className="m-8 object-cover h-[250px] w-[200px] rounded-lg"
-        src="https://static-task-assets.react-formula.com/711612.jpg"
-      />
-      <button>
-        <i
-          className="m-4 text-5xl 
-        fa-solid fa-circle-chevron-left text-cyan-400 hover:text-cyan-500"
-        ></i>
-      </button>
+      <div>description above pic</div>
+      <div className="flex justify-center border-black items-center">
+        <button>
+          <i
+            className="fa-regular fa-circle-left 
+        text-cyan-400 hover:text-cyan-500"
+          ></i>
+        </button>
+        <img
+          className="m-8 object-cover h-[250px] w-[200px] rounded-lg"
+          src="https://static-task-assets.react-formula.com/711612.jpg"
+        />
+        <button>
+          <i
+            className="m-4 text-lg 
+        fa-regular fa-circle-right  text-cyan-400 hover:text-cyan-500"
+          ></i>
+        </button>
+      </div>
     </div>
   );
 }
