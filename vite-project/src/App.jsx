@@ -7,14 +7,25 @@ import FancyButton from "./FancyButton";
 showing relative path */
 import MyComponent from "./MyComponent.jsx";
 
-const IMAGE_URLS = ["https://static-task-assets.react-formula.com/711612.jpg"];
+const IMAGE_URLS = [
+  "https://static-task-assets.react-formula.com/711612.jpg",
+  "https://static-task-assets.react-formula.com/607528.jpg",
+  "https://static-task-assets.react-formula.com/714109.jpg",
+  "https://static-task-assets.react-formula.com/331987.jpg",
+  "https://static-task-assets.react-formula.com/990651.jpg",
+];
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [imageIndx, setImageIdx] = useState(2);
   return (
     <div>
-      <div>description above pic</div>
-      <div className="flex justify-center border-black items-center">
+      <div className="text-cyan-400 text-lg text-center border border-black">
+        description above pic
+      </div>
+      <div
+        className="flex justify-center border-black items-center
+      border border-red"
+      >
         <button>
           <i
             className="fa-regular fa-circle-left 
@@ -23,7 +34,7 @@ function App() {
         </button>
         <img
           className="m-8 object-cover h-[250px] w-[200px] rounded-lg"
-          src="https://static-task-assets.react-formula.com/711612.jpg"
+          src={IMAGE_URLS[imageIndx]}
         />
         <button>
           <i
