@@ -3,8 +3,13 @@ const CatCard = (props) => {
   return (
     <div>
       <div className="flex text-neutral-500">
-        <div className="mr-2 font-bold">name </div>
+        <div className="mr-2 font-bold">Name </div>
         <div>{cat.name}</div>
+      </div>
+
+      <div className="flex text-neutral-500">
+        <div className="mr-2 font-bold">Location </div>
+        <div>{cat.location}</div>
       </div>
     </div>
   );
