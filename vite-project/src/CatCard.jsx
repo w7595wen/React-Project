@@ -1,7 +1,7 @@
 const CatCard = (props) => {
   const { cat } = props;
   return (
-    <div className="border border-neutral-500 m-6">
+    <div className="border border-neutral-500 m-6 rounded-lg">
       <img className="w-80 h-64 object-cover" src={cat.imageUrl} />
       <div className="flex text-neutral-500">
         <div className="mr-2 font-bold">Name </div>

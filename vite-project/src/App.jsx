@@ -43,9 +43,8 @@ const CATS = [
 ];
 
 function App() {
-  const [imageIndx, setImageIndx] = useState(2);
   return (
-    <div>
+    <div className="flex justify-center">
       <CatCard cat={CATS[1]} />
     </div>
   );
