@@ -5,12 +5,12 @@ const CatCard = (props) => {
       <img className="w-80 h-64 object-cover" src={cat.imageUrl} />
       <div className="p-4">
         <div className="flex text-neutral-500">
-          <div className="mr-2 font-bold">Name </div>
+          <div className="mr-2 font-bold w-24 border border-black">Name </div>
           <div>{cat.name}</div>
         </div>
 
         <div className="flex text-neutral-500">
-          <div className="mr-2 font-bold">Location </div>
+          <div className="mr-2 font-bold w-24">Location </div>
           <div>{cat.location}</div>
         </div>
       </div>
