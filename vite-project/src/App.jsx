@@ -7,6 +7,9 @@ import FancyButton from "./FancyButton";
 showing relative path */
 import MyComponent from "./MyComponent.jsx";
 
+/* import catCard */
+import CatCard from "./CatCard";
+
 const IMAGE_URLS = [
   "https://static-task-assets.react-formula.com/711612.jpg",
   "https://static-task-assets.react-formula.com/607528.jpg",
@@ -15,39 +18,35 @@ const IMAGE_URLS = [
   "https://static-task-assets.react-formula.com/990651.jpg",
 ];
 
+const CATS = [
+  {
+    name: "Winnifred",
+    age: 10,
+    breed: "Scottish Fold",
+    location: "Queens, NY",
+    imageUrl: "https://static-task-assets.react-formula.com/378212.jpg",
+  },
+  {
+    name: "Abby",
+    age: 4,
+    breed: "Abysinnian",
+    location: "Charleston, WV",
+    imageUrl: "https://static-task-assets.react-formula.com/470756.jpg",
+  },
+  {
+    name: "Simon",
+    age: 2,
+    breed: "Siamese",
+    location: "Seattle, WA",
+    imageUrl: "https://static-task-assets.react-formula.com/130714.jpg",
+  },
+];
+
 function App() {
   const [imageIndx, setImageIndx] = useState(2);
   return (
     <div>
-      <div className="text-cyan-400 text-lg text-center border border-black">
-        pic {imageIndx}
-      </div>
-      <div
-        className="flex justify-center border-black items-center
-      border border-red"
-      >
-        <button>
-          <i
-            className="fa-regular fa-circle-left text-cyan-400 hover:text-cyan-500"
-            onClick={() => {
-              setImageIndx(imageIndx - 1);
-            }}
-          ></i>
-        </button>
-        <img
-          className="m-8 object-cover h-[250px] w-[200px] rounded-lg"
-          src={IMAGE_URLS[imageIndx]}
-        />
-        <button>
-          <i
-            className="m-4 text-lg 
-        fa-regular fa-circle-right  text-cyan-400 hover:text-cyan-500"
-            onClick={() => {
-              setImageIndx(imageIndx + 1);
-            }}
-          ></i>
-        </button>
-      </div>
+      <CatCard cat={CATS[1]} />
     </div>
   );
 }
