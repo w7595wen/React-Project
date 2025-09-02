@@ -10,6 +10,8 @@ import MyComponent from "./MyComponent.jsx";
 /* import catCard */
 import CatCard from "./CatCard";
 
+import NavButton from "./NavButton.jsx";
+
 const IMAGE_URLS = [
   "https://static-task-assets.react-formula.com/711612.jpg",
   "https://static-task-assets.react-formula.com/607528.jpg",
@@ -44,8 +46,10 @@ const CATS = [
 
 function App() {
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center border border-red-300 items-center">
+      <NavButton />
       <CatCard cat={CATS[1]} />
+      <NavButton />
     </div>
   );
 }
