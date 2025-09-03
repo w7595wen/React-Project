@@ -12,14 +12,6 @@ import CatCard from "./CatCard";
 
 import NavButton from "./NavButton.jsx";
 
-const IMAGE_URLS = [
-  "https://static-task-assets.react-formula.com/711612.jpg",
-  "https://static-task-assets.react-formula.com/607528.jpg",
-  "https://static-task-assets.react-formula.com/714109.jpg",
-  "https://static-task-assets.react-formula.com/331987.jpg",
-  "https://static-task-assets.react-formula.com/990651.jpg",
-];
-
 const CATS = [
   {
     name: "Winnifred",
@@ -45,10 +37,11 @@ const CATS = [
 ];
 
 function App() {
+  const [CatIdx, setCatIdx] = useState(0);
   return (
     <div className="flex justify-center items-center">
       <NavButton />
-      <CatCard cat={CATS[1]} />
+      <CatCard cat={CATS[CatIdx]} />
       <NavButton />
     </div>
   );
