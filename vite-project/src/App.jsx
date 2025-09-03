@@ -40,9 +40,17 @@ function App() {
   const [CatIdx, setCatIdx] = useState(0);
   return (
     <div className="flex justify-center items-center">
-      <NavButton />
+      <NavButton
+        onClick={() => {
+          setCatIdx(CatIdx - 1);
+        }}
+      />
       <CatCard cat={CATS[CatIdx]} />
-      <NavButton />
+      <NavButton
+        onClick={() => {
+          setCatIdx(CatIdx + 1);
+        }}
+      />
     </div>
   );
 }
