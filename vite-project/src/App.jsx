@@ -46,10 +46,10 @@ const CATS = [
 
 function App() {
   return (
-    <div className="flex justify-center border border-red-300 items-center">
-      <NavButton icon="fa-solid fa-chevron-left" />
+    <div className="flex justify-center items-center">
+      <NavButton />
       <CatCard cat={CATS[1]} />
-      <NavButton icon="fa-solid fa-chevron-right" />
+      <NavButton />
     </div>
   );
 }

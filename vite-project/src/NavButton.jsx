@@ -1,8 +1,7 @@
 const NavButton = (props) => {
-  const { icon } = props;
   return (
     <button className="bg-blue-400 text-green-200 rounded-md">
-      <i className={"m-2 text-3xl ${icon}"}></i>
+      <i className="fa-regular fa-star m-2 text-3xl"></i>
     </button>
   );
 };
