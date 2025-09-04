@@ -29,7 +29,7 @@ const quote3 = {
 
 function App() {
   return (
-    <div>
+    <div className="flex justify-center">
       <QuoteBox1>quote</QuoteBox1>
     </div>
   );
