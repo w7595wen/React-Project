@@ -8,6 +8,7 @@ showing relative path */
 import MyComponent from "./MyComponent.jsx";
 
 import QuoteBox1 from "./QuoteBox1.jsx";
+import QuoteBox2 from "./QuoteBox1.jsx";
 
 const quote1 = {
   text1: "text",
@@ -29,8 +30,9 @@ const quote3 = {
 
 function App() {
   return (
-    <div className="flex justify-center">
+    <div className="flex flex-col items-center">
       <QuoteBox1>quote</QuoteBox1>
+      <QuoteBox2>quote</QuoteBox2>
     </div>
   );
 }
