@@ -8,25 +8,7 @@ showing relative path */
 import MyComponent from "./MyComponent.jsx";
 
 import QuoteBox1 from "./QuoteBox1.jsx";
-import QuoteBox2 from "./QuoteBox1.jsx";
-
-const quote1 = {
-  text1: "text",
-  text2: "text",
-  text3: "text",
-};
-
-const quote2 = {
-  text1: "text",
-  text2: "text",
-  text3: "text",
-};
-
-const quote3 = {
-  text1: "text",
-  text2: "text",
-  text3: "text",
-};
+import QuoteBox2 from "./QuoteBox2.jsx";
 
 function App() {
   return (
