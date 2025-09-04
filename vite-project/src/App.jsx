@@ -12,47 +12,8 @@ import CatCard from "./CatCard";
 
 import NavButton from "./NavButton.jsx";
 
-const CATS = [
-  {
-    name: "Winnifred",
-    age: 10,
-    breed: "Scottish Fold",
-    location: "Queens, NY",
-    imageUrl: "https://static-task-assets.react-formula.com/378212.jpg",
-  },
-  {
-    name: "Abby",
-    age: 4,
-    breed: "Abysinnian",
-    location: "Charleston, WV",
-    imageUrl: "https://static-task-assets.react-formula.com/470756.jpg",
-  },
-  {
-    name: "Simon",
-    age: 2,
-    breed: "Siamese",
-    location: "Seattle, WA",
-    imageUrl: "https://static-task-assets.react-formula.com/130714.jpg",
-  },
-];
-
 function App() {
-  const [CatIdx, setCatIdx] = useState(0);
-  return (
-    <div className="flex justify-center items-center">
-      <NavButton
-        onClick={() => {
-          setCatIdx(CatIdx - 1);
-        }}
-      />
-      <CatCard cat={CATS[CatIdx]} />
-      <NavButton
-        onClick={() => {
-          setCatIdx(CatIdx + 1);
-        }}
-      />
-    </div>
-  );
+  return <div>re-set</div>;
 }
 
 export default App;
