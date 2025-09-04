@@ -7,13 +7,32 @@ import FancyButton from "./FancyButton";
 showing relative path */
 import MyComponent from "./MyComponent.jsx";
 
-/* import catCard */
-import CatCard from "./CatCard";
+import QuoteBox1 from "./QuoteBox1.jsx";
 
-import NavButton from "./NavButton.jsx";
+const quote1 = {
+  text1: "text",
+  text2: "text",
+  text3: "text",
+};
+
+const quote2 = {
+  text1: "text",
+  text2: "text",
+  text3: "text",
+};
+
+const quote3 = {
+  text1: "text",
+  text2: "text",
+  text3: "text",
+};
 
 function App() {
-  return <div>re-set</div>;
+  return (
+    <div>
+      <QuoteBox1>quote</QuoteBox1>
+    </div>
+  );
 }
 
 export default App;
