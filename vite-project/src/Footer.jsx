@@ -1,8 +1,11 @@
 const Footer = () => {
   return (
-    <div>
-      <div>Footer text</div>
-      <div>text 2</div>
+    <div className="flex justify-between bg-pink-100 p-2">
+      <div className="text-lg">Footer text</div>
+      <div>
+        <i class="fa-regular fa-star text-pink-300"></i>
+        <a href="https://google.com">link</a>
+      </div>
     </div>
   );
 };
