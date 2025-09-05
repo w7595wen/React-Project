@@ -10,6 +10,7 @@ function App() {
     <div className="h-screen flex flex-col">
       <Header>Header text</Header>
       <Search>Search text</Search>
+      <Search>Footer text</Search>
     </div>
   );
 }
