@@ -7,7 +7,7 @@ import Search from "./Search.jsx";
 
 function App() {
   return (
-    <div>
+    <div className="h-screen flex flex-col">
       <Header>Header text</Header>
       <Search>Search text</Search>
     </div>
