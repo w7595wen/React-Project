@@ -20,9 +20,11 @@ function App() {
   return (
     <div>
       <Component1>Header text</Component1>
-      <Component3>button</Component3>
-      <Component2 display={DISPLAYS[0]} />
-      <Component3>button</Component3>
+      <div className="flex flex-row items-center justify-center">
+        <Component3>button</Component3>
+        <Component2 display={DISPLAYS[0]} />
+        <Component3>button</Component3>
+      </div>
     </div>
   );
 }
