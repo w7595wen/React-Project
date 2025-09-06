@@ -4,11 +4,22 @@ import "./App.css";
 import Component1 from "./Component1.jsx";
 import Component2 from "./Component2.jsx";
 
+const DISPLAYS = [
+  {
+    text1: "text1",
+    text2: "text2",
+  },
+  {
+    text1: "text1",
+    text2: "text2",
+  },
+];
+
 function App() {
   return (
     <div>
       <Component1>Header text</Component1>
-      <Component2>Header text</Component2>
+      <Component2 display={DISPLAYS[0]} />
     </div>
   );
 }

@@ -1,13 +1,10 @@
-const Component2 = () => {
+const Component2 = (props) => {
+  const { display } = props;
   return (
     <div>
-      <div className="bg-violet-100 text-slate-100">About me</div>
-      <div className="bg-violet-100 text-slate-100">About me</div>
-      <div className="flex items-center justify-center bg-violet-200">
-        <img
-          className="w-64 rounded-lg"
-          src={"https://static-task-assets.react-formula.com/378212.jpg"}
-        />
+      <div className="flex">
+        <div>Static text</div>
+        <div>{display.text1}</div>
       </div>
     </div>
   );
