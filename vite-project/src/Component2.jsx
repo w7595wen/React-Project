@@ -3,8 +3,12 @@ const Component2 = (props) => {
   return (
     <div>
       <div className="flex">
-        <div>Static text</div>
+        <div className="mr-2 font-bold">Static text</div>
         <div>{display.text1}</div>
+      </div>
+      <div className="flex">
+        <div className="mr-2 font-bold">Static text</div>
+        <div>{display.text2}</div>
       </div>
     </div>
   );
