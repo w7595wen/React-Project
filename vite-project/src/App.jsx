@@ -9,12 +9,16 @@ import Component5 from "./Component5.jsx";
 
 const DISPLAYS = [
   {
-    text1: "text1",
-    text2: "text2",
+    q1: "Name:",
+    a1: "W i n g c h e e",
+    q2: "Dream holiday spot:",
+    a2: "Hong Kong",
   },
   {
-    text1: "text1",
-    text2: "text2",
+    q1: "Ideal boba order:",
+    a1: "XL Taro boba with milk-foam, no ice, 100% sweet",
+    q2: "Dreamy pencil-case set-up:",
+    a2: "4+ pastel highlighters + fine-tip ballpoint pens",
   },
 ];
 
