@@ -20,14 +20,16 @@ function App() {
     <div>
       <Component1>Header text</Component1>
       <div className="bg-violet-100">
-        <button>
-          <i className="fa-regular fa-circle-left text-slate-800 hover:text-yellow-200 mr-2"></i>
-        </button>
+        <div className="flex flex-row justify-between ml-2">
+          <button>
+            <i className="fa-regular fa-circle-left text-slate-800 hover:text-yellow-200 mr-2"></i>
+          </button>
+          <button>
+            <i className="fa-regular fa-circle-right text-slate-800 hover:text-yellow-200 mr-2"></i>
+          </button>
+        </div>
       </div>
       <Component2 display={DISPLAYS[0]} />
-      <button>
-        <i className="fa-regular fa-circle-right text-slate-800 hover:text-yellow-200 mr-2"></i>
-      </button>
     </div>
   );
 }
