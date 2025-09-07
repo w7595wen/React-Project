@@ -34,7 +34,9 @@ function App() {
       </div>
       <Component2 display={DISPLAYS[0]} />
       <Component3>text</Component3>
-      <div className="bg-violet-100">text</div>
+      <div className="bg-violet-100 text-purple-600  text-2xl text-right">
+        <i class="fa-solid fa-meteor"></i>
+      </div>
       <Component4>text</Component4>
       <Component5>text</Component5>
     </div>
