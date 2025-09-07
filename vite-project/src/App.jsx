@@ -4,6 +4,7 @@ import "./App.css";
 import Component1 from "./Component1.jsx";
 import Component2 from "./Component2.jsx";
 import Component3 from "./Component3.jsx";
+import Component4 from "./Component4.jsx";
 
 const DISPLAYS = [
   {
@@ -32,6 +33,8 @@ function App() {
       </div>
       <Component2 display={DISPLAYS[0]} />
       <Component3>text</Component3>
+      <div className="bg-violet-100">text</div>
+      <Component4>text</Component4>
     </div>
   );
 }
