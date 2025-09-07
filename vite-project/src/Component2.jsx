@@ -6,6 +6,12 @@ const Component2 = (props) => {
         <div className="mr-4 font-bold">Static text</div>
         <div>{display.text1}</div>
       </div>
+      <div className="flex items-center justify-center">
+        <img
+          className="w-64 rounded-lg"
+          src={"https://static-task-assets.react-formula.com/378212.jpg"}
+        />
+      </div>
     </div>
   );
 };
