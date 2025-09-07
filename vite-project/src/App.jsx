@@ -19,7 +19,15 @@ function App() {
   return (
     <div>
       <Component1>Header text</Component1>
+      <div className="bg-violet-100">
+        <button>
+          <i className="fa-regular fa-circle-left text-slate-800 hover:text-yellow-200 mr-2"></i>
+        </button>
+      </div>
       <Component2 display={DISPLAYS[0]} />
+      <button>
+        <i className="fa-regular fa-circle-right text-slate-800 hover:text-yellow-200 mr-2"></i>
+      </button>
     </div>
   );
 }
