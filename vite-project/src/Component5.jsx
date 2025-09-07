@@ -1,7 +1,7 @@
 const Component5 = (props) => {
   return (
     <div className="bg-violet-100">
-      <button className="hover:text-yellow-300 mr-2">
+      <button className="hover:text-yellow-300 mr-3">
         Tomorrow will be a better day! Get some rest and do not abandon your
         dreams!
       </button>
