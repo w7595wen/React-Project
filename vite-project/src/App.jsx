@@ -11,14 +11,16 @@ const DISPLAYS = [
   {
     q1: "Name:",
     a1: "W i n g c h e e",
-    q2: "Dream holiday spot:",
+    q2: "Ideal holiday spot:",
     a2: "Hong Kong",
+    imageUrl: "https://static-task-assets.react-formula.com/378212.jpg",
   },
   {
     q1: "Ideal ice cream toppings:",
     a1: "Cheese cake + oreo crumbs",
-    q2: "Dreamy pencil-case set-up:",
+    q2: "Perfect pencil-case set-up:",
     a2: "4+ pastel highlighters + fine-tip ballpoint pens",
+    imageUrl: "https://static-task-assets.react-formula.com/470756.jpg",
   },
 ];
 
