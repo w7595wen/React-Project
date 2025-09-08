@@ -33,7 +33,7 @@ function App() {
       />
       <Component1>Header text</Component1>
       <div className="bg-[#123f94]">
-        <div className="flex flex-row justify-between ml-2 p-4 text-2xl">
+        <div className="flex flex-row justify-between ml-2 p-4 text-4xl">
           <button>
             <i className="fa-regular fa-circle-left text-slate-800 text-[#7a36d9] hover:text-yellow-200 mr-2"></i>
           </button>
