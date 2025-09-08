@@ -1,7 +1,7 @@
 const Component2 = (props) => {
   const { display } = props;
   return (
-    <div className="bg-violet-100">
+    <div className="bg-[#123f94]">
       <div className="flex flex-row items-center justify-center">
         <div className="mr-4 font-bold">{display.q1}</div>
         <div>{display.a1}</div>
