@@ -33,17 +33,19 @@ function App() {
       />
       <Component1>Header text</Component1>
       <div className="bg-[#123f94]">
-        <div className="flex flex-row justify-between ml-2">
+        <div className="flex flex-row justify-between ml-2 p-4 text-2xl">
           <button>
-            <i className="fa-regular fa-circle-left text-slate-800 text-[#7a36d9] hover:text-yellow-200 mr-2 text-2xl"></i>
+            <i className="fa-regular fa-circle-left text-slate-800 text-[#7a36d9] hover:text-yellow-200 mr-2"></i>
           </button>
           <button>
-            <i className="fa-regular fa-circle-right text-slate-800 text-[#7a36d9] hover:text-yellow-200 mr-2 text-2xl"></i>
+            <i className="fa-regular fa-circle-right text-slate-800 text-[#7a36d9] hover:text-yellow-200 mr-2"></i>
           </button>
         </div>
       </div>
       <Component2 display={DISPLAYS[0]} />
-      <div className="bg-[#123f94] text-purple-600  text-2xl text-right">.</div>
+      <div className="bg-[#123f94] text-purple-600  text-2xl text-right p-4">
+        .
+      </div>
       <Component3>text</Component3>
       <div className="bg-[#012746] text-purple-600  text-2xl text-right">.</div>
       <Component4>text</Component4>
