@@ -1,6 +1,6 @@
 const Component3 = (props) => {
   return (
-    <div className="border border-slate-500">
+    <div className="border border-slate-500 bg-[#FFFACD]">
       <div>
         <div className="text-orange-500 text-right">
           <i class="fa-solid fa-paperclip"></i>
