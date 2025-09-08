@@ -29,25 +29,25 @@ function App() {
     <div>
       <img
         className="object-cover h-[175px] w-[1400px]"
-        src="https://github.com/w87895wen/React-Project/blob/main/vite-project/images/header(800%20x%20300%20px)%20(1).png?raw=true"
+        src="https://github.com/w87895wen/React-Project/blob/main/vite-project/images/header(800%20x%20300%20px)%20(3).png?raw=true"
       />
       <Component1>Header text</Component1>
       <div className="bg-[#123f94]">
         <div className="flex flex-row justify-between ml-2">
           <button>
-            <i className="fa-regular fa-circle-left text-slate-800 hover:text-yellow-200 mr-2"></i>
+            <i className="fa-regular fa-circle-left text-slate-800 text-[#7a36d9] hover:text-yellow-200 mr-2 text-2xl"></i>
           </button>
           <button>
-            <i className="fa-regular fa-circle-right text-slate-800 hover:text-yellow-200 mr-2"></i>
+            <i className="fa-regular fa-circle-right text-slate-800 text-[#7a36d9] hover:text-yellow-200 mr-2 text-2xl"></i>
           </button>
         </div>
       </div>
       <Component2 display={DISPLAYS[0]} />
       <div className="bg-[#123f94] text-purple-600  text-2xl text-right">.</div>
       <Component3>text</Component3>
-      <div className="bg-[#002d4e] text-purple-600  text-2xl text-right">.</div>
+      <div className="bg-[#012746] text-purple-600  text-2xl text-right">.</div>
       <Component4>text</Component4>
-      <div className="bg-[#002d4e] text-purple-600  text-2xl text-right">.</div>
+      <div className="bg-[#012746] text-purple-600  text-2xl text-right">.</div>
       <Component5>text</Component5>
     </div>
   );

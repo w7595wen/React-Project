@@ -1,6 +1,6 @@
 const Component1 = () => {
   return (
-    <div className="bg-[#002d4e]">
+    <div className="bg-[#012746]">
       <div className="flex justify-between">
         <div className="text-left">
           <i class="fa-solid fa-star text-xl text-yellow-100"></i>
