@@ -27,6 +27,10 @@ const DISPLAYS = [
 function App() {
   return (
     <div>
+      <img
+        className="object-cover h-[200px] w-[1400px]"
+        src="https://static-task-assets.react-formula.com/607528.jpg"
+      />
       <Component1>Header text</Component1>
       <div className="bg-[#123f94]">
         <div className="flex flex-row justify-between ml-2">
