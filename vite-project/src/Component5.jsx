@@ -3,7 +3,7 @@ const Component5 = (props) => {
     <div className="bg-violet-100">
       <button className="hover:text-yellow-300 mr-3">
         Tomorrow will be a better day! Get some rest and do not abandon your
-        dreams!
+        ...!
       </button>
       <button className="hover:text-yellow-300">
         <i class="fa-solid fa-crown"></i>

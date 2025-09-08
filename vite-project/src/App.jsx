@@ -13,8 +13,7 @@ const DISPLAYS = [
     a1: "W i n g c h e e",
     q2: "Ideal holiday spot:",
     a2: "Hong Kong",
-    imageUrl:
-      "https://github.com/w87895wen/React-Project/blob/main/vite-project/images/header%20(400%20x%20200%20px).png?raw=true",
+    imageUrl: "https://static-task-assets.react-formula.com/378212.jpg",
   },
   {
     q1: "Ideal ice cream toppings:",
@@ -29,8 +28,8 @@ function App() {
   return (
     <div>
       <img
-        className="object-cover h-[200px]"
-        src="https://github.com/w87895wen/React-Project/blob/main/vite-project/images/sky%20header.png?raw=true"
+        className="object-cover h-[300px] w-[1400px]"
+        src="https://github.com/w87895wen/React-Project/blob/main/vite-project/images/header(800%20x%20300%20px).png?raw=true."
       />
       <Component1>Header text</Component1>
       <div className="bg-[#123f94]">
