@@ -45,9 +45,9 @@ function App() {
       <Component2 display={DISPLAYS[0]} />
       <div className="bg-[#123f94] text-purple-600  text-2xl text-right">.</div>
       <Component3>text</Component3>
-      <div className="bg-[#123f94] text-purple-600  text-2xl text-right">.</div>
+      <div className="bg-[#002d4e] text-purple-600  text-2xl text-right">.</div>
       <Component4>text</Component4>
-      <div className="bg-[#123f94] text-purple-600  text-2xl text-right">.</div>
+      <div className="bg-[#002d4e] text-purple-600  text-2xl text-right">.</div>
       <Component5>text</Component5>
     </div>
   );
