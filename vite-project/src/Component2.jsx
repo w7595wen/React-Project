@@ -10,7 +10,7 @@ const Component2 = (props) => {
         <div className="font-bold w-60">{display.q2}</div>
         <div>{display.a2}</div>
       </div>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center m-3">
         <img className="w-80 h-64" src={display.imageUrl} />
       </div>
     </div>
