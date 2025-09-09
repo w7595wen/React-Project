@@ -16,10 +16,10 @@ const DISPLAYS = [
     imageUrl: "https://static-task-assets.react-formula.com/378212.jpg",
   },
   {
-    q1: "Ideal ice cream toppings:",
-    a1: "Cheese cake + oreo crumbs",
-    q2: "Perfect pencil-case set-up:",
-    a2: "4+ pastel highlighters + fine-tip ballpoint pens",
+    q1: "shorter text:",
+    a1: "shorter ",
+    q2: "shorter:",
+    a2: "shorter",
     imageUrl: "https://static-task-assets.react-formula.com/470756.jpg",
   },
 ];
