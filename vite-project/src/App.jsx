@@ -25,6 +25,7 @@ const DISPLAYS = [
 ];
 
 function App() {
+  const [imageIndx, setImageIndx] = useState(0);
   return (
     <div>
       <img
@@ -34,15 +35,25 @@ function App() {
       <Component1>Header text</Component1>
       <div className="bg-[#123f94]">
         <div className="flex flex-row justify-between ml-2 p-4 text-4xl">
-          <button>
-            <i className="fa-regular fa-circle-left text-slate-800 text-[#7a36d9] hover:text-yellow-200 mr-2"></i>
+          <button
+            className="text-[#7a36d9] hover:text-yellow-200 mr-2"
+            onClick={() => {
+              setImageIndx(imageIndx - 1);
+            }}
+          >
+            <i className="fa-regular fa-circle-left"></i>
           </button>
-          <button>
-            <i className="fa-regular fa-circle-right text-slate-800 text-[#7a36d9] hover:text-yellow-200 mr-2"></i>
+          <button
+            className="text-[#7a36d9] hover:text-yellow-200 mr-2"
+            onClick={() => {
+              setImageIndx(imageIndx + 1);
+            }}
+          >
+            <i className="fa-regular fa-circle-right"></i>
           </button>
         </div>
       </div>
-      <Component2 display={DISPLAYS[0]} />
+      <Component2 display={DISPLAYS[imageIndx]} />
       <div className="bg-[#123f94] text-purple-600  text-2xl text-right p-4">
         .
       </div>
