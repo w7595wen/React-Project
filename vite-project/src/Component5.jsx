@@ -20,6 +20,17 @@ const Component5 = (props) => {
           </a>
         </div>
       </div>
+      <div className="flex flex-row justify-center items-center">
+        <div className="mr-3">Website developed by</div>
+        <i className="fa-solid fa-w mr-1"></i>
+        <i className="fa-solid fa-i mr-1"></i>
+        <i className="fa-solid fa-n mr-1"></i>
+        <i className="fa-solid fa-g mr-1"></i>
+        <i className="fa-solid fa-c mr-1"></i>
+        <i className="fa-solid fa-h mr-1"></i>
+        <i className="fa-solid fa-e mr-1"></i>
+        <i className="fa-solid fa-e mr-1"></i>
+      </div>
     </div>
   );
 };
