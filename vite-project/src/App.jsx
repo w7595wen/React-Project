@@ -19,7 +19,7 @@ const DISPLAYS = [
     q1: "Fun fact:",
     a1: "♡ pastel colours",
     q2: "Ideal day:",
-    a2: "No schooooool",
+    a2: "No school",
     imageUrl: "https://static-task-assets.react-formula.com/470756.jpg",
   },
 ];
