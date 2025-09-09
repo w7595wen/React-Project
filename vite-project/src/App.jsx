@@ -16,10 +16,10 @@ const DISPLAYS = [
     imageUrl: "https://static-task-assets.react-formula.com/378212.jpg",
   },
   {
-    q1: "shorter text:",
-    a1: "shorter ",
-    q2: "shorter:",
-    a2: "shorter",
+    q1: "Fun fact:",
+    a1: "♡ pastel colours",
+    q2: "Ideal day:",
+    a2: "No schooooool",
     imageUrl: "https://static-task-assets.react-formula.com/470756.jpg",
   },
 ];
