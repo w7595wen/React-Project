@@ -11,20 +11,20 @@ const Component4 = (props) => {
       </div>
       <div className="mb-4 text-center italic p-2 text-lg">
         Tomorrow will be a better day! Get some rest and do not abandon your
-        <i className="fa-solid fa-w mr-1 ml-2"></i>
-        <i className="fa-solid fa-i mr-1"></i>
-        <i className="fa-solid fa-l mr-1"></i>
-        <i className="fa-solid fa-d mr-1"></i>
-        <i className="fa-solid fa-e mr-1"></i>
-        <i className="fa-solid fa-s mr-1"></i>
-        <i className="fa-solid fa-t mr-3"></i>
-        <i className="fa-solid fa-d mr-1"></i>
-        <i className="fa-solid fa-r mr-1"></i>
-        <i className="fa-solid fa-e mr-1"></i>
-        <i className="fa-solid fa-a mr-1"></i>
-        <i className="fa-solid fa-m mr-1"></i>
-        <i className="fa-solid fa-s mr-2"></i>
-        <i class="fa-solid fa-thumbs-up"></i>
+        <i className="fa-solid fa-w mr-1 ml-2 text-3xl text-[#ebcf34]"></i>
+        <i className="fa-solid fa-i mr-1 text-3xl text-[#ebcf34]"></i>
+        <i className="fa-solid fa-l mr-1 text-3xl text-[#ebcf34]"></i>
+        <i className="fa-solid fa-d mr-1 text-3xl text-[#ebcf34]"></i>
+        <i className="fa-solid fa-e mr-1 text-3xl text-[#ebcf34]"></i>
+        <i className="fa-solid fa-s mr-1 text-3xl text-[#ebcf34]"></i>
+        <i className="fa-solid fa-t mr-3 text-3xl text-[#ebcf34]"></i>
+        <i className="fa-solid fa-d mr-1 text-3xl text-[#ebcf34]"></i>
+        <i className="fa-solid fa-r mr-1 text-3xl text-[#ebcf34]"></i>
+        <i className="fa-solid fa-e mr-1 text-3xl text-[#ebcf34]"></i>
+        <i className="fa-solid fa-a mr-1 text-3xl text-[#ebcf34]"></i>
+        <i className="fa-solid fa-m mr-1 text-3xl text-[#ebcf34]"></i>
+        <i className="fa-solid fa-s mr-3 text-3xl text-[#ebcf34]"></i>
+        <i class="fa-solid fa-thumbs-up text-3xl text-[#ebcf34]"></i>
       </div>
     </div>
   );
