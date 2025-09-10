@@ -13,7 +13,8 @@ const DISPLAYS = [
     a1: "W i n g c h e e",
     q2: "Bucket list item:",
     a2: "Go to Summit One Vanderbilt",
-    imageUrl: "https://static-task-assets.react-formula.com/378212.jpg",
+    imageUrl:
+      "https://github.com/w87895wen/React-Project/blob/main/vite-project/images/component2pic1.png?raw=true",
     caption: "Photo is obtained from Unsplash",
   },
   {
@@ -21,8 +22,9 @@ const DISPLAYS = [
     a1: "♡ pastel colours",
     q2: "Ideal holiday spot:",
     a2: "Hong Kong",
-    imageUrl: "https://static-task-assets.react-formula.com/470756.jpg",
-    caption: "Graphic is designed using Canva",
+    imageUrl:
+      "https://github.com/w87895wen/React-Project/blob/main/vite-project/images/component2_pic2.png?raw=true",
+    caption: "Graphic is obtained from Canva",
   },
 ];
 
