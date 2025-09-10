@@ -37,6 +37,7 @@ function App() {
         src="https://github.com/w87895wen/React-Project/blob/main/vite-project/images/header(800%20x%20300%20px)%20(3).png?raw=true"
       />
       <Component1>Header text</Component1>
+      <div className="bg-[#012746] h-[10px]"></div>
       <div className="bg-[#123f94]">
         <div className="flex flex-row justify-between ml-2 p-4 text-4xl">
           <button
