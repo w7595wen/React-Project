@@ -11,7 +11,7 @@ const Component2 = (props) => {
         <div className="m-3">{display.a2}</div>
       </div>
       <div>
-        <img className="w-100 h-64" src={display.imageUrl} />
+        <img className="w-[1000px] h-[600px]" src={display.imageUrl} />
         <div className="italic">{display.caption}</div>
       </div>
     </div>
