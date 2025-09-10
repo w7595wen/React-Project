@@ -64,10 +64,14 @@ function App() {
       </div>
       <Component3>text</Component3>
       <div className="bg-[#012746] text-purple-600  text-2xl text-right">.</div>
+      <img
+        className="object-cover h-[320px] w-[1400px]"
+        src="https://github.com/w87895wen/React-Project/blob/main/vite-project/images/shooting%20star(800%20x%20300%20px).png?raw=true"
+      />
       <Component4>text</Component4>
       <div className="bg-[#012746] text-purple-600  text-2xl text-right">.</div>
       <img
-        className="object-cover h-[300px] w-[1400px]"
+        className="object-cover h-[400px] w-[1400px]"
         src="https://github.com/w87895wen/React-Project/blob/main/vite-project/images/shooting%20star(800%20x%20300%20px).png?raw=true"
       />
       <Component5>text</Component5>

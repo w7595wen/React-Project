@@ -1,6 +1,6 @@
 const Component5 = (props) => {
   return (
-    <div className="bg-violet-100">
+    <div className="bg-[#012746]">
       <div className="flex flex-row">
         <div className="text-5xl p-5 mt-3 text-[#7a36d9]">
           <a href="https://github.com/w87895wen">
@@ -13,7 +13,7 @@ const Component5 = (props) => {
           </a>
         </div>
       </div>
-      <div className="flex flex-row justify-center items-center p-2 text-lg">
+      <div className="flex flex-row justify-center items-center p-2 text-lg text-slate-100">
         <div className="mr-3">Website developed by</div>
         <i className="fa-solid fa-w mr-1"></i>
         <i className="fa-solid fa-i mr-1"></i>
