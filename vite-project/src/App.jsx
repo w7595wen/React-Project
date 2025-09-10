@@ -14,6 +14,7 @@ const DISPLAYS = [
     q2: "Bucket list item:",
     a2: "Go to Summit One Vanderbilt",
     imageUrl: "https://static-task-assets.react-formula.com/378212.jpg",
+    caption: "Photo is obtained from Unsplash",
   },
   {
     q1: "Fun fact:",
@@ -21,6 +22,7 @@ const DISPLAYS = [
     q2: "Ideal holiday spot:",
     a2: "Hong Kong",
     imageUrl: "https://static-task-assets.react-formula.com/470756.jpg",
+    caption: "Graphic is designed using Canva",
   },
 ];
 
