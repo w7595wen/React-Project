@@ -1,7 +1,7 @@
 const Component2 = (props) => {
   const { display } = props;
   return (
-    <div className=" flex flex-col items-center justify-center bg-[#012746] p-4 text-md  text-slate-100 ">
+    <div className=" flex flex-col items-center justify-center bg-[#012746] p-4 text-lg  text-slate-100 ">
       <div>
         <div className="font-bold w-60">{display.q1}</div>
         <div className="m-3">{display.a1}</div>
@@ -11,7 +11,7 @@ const Component2 = (props) => {
         <div className="m-3">{display.a2}</div>
       </div>
       <div>
-        <img className="w-[1000px] h-[600px]" src={display.imageUrl} />
+        <img className="w-[1100px] h-[600px]" src={display.imageUrl} />
         <div className="italic">{display.caption}</div>
       </div>
     </div>
