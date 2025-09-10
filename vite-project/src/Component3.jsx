@@ -1,17 +1,18 @@
 const Component3 = (props) => {
   return (
     <div className="bg-[#012746]">
-      <div className="border border-slate-500 bg-[#FFFACD]">
-        <div>
-          <div className="text-orange-500 text-right">
-            <i class="fa-solid fa-paperclip"></i>
-          </div>
-          <div className="text-center underline italic border-b border-slate-500 p-4">
-            subject line:
-          </div>
-        </div>
-        <div className="mb-4 text-center italic p-2">body</div>
-      </div>
+      <img
+        className="object-cover h-[500px] w-[1400px]"
+        src="https://github.com/w87895wen/React-Project/blob/main/vite-project/images/pic%20below%20component%204(800%20x%20300%20px).png?raw=true"
+      />
+      <img
+        className="object-cover h-[200px] w-[1400px]"
+        src="https://github.com/w87895wen/React-Project/blob/main/vite-project/images/stars_v4(800%20x%20300%20px).png?raw=true"
+      />
+      <img
+        className="object-cover h-[500px] w-[1400px]"
+        src="https://github.com/w87895wen/React-Project/blob/main/vite-project/images/pic%20below%20component%204(800%20x%20300%20px).png?raw=true"
+      />
     </div>
   );
 };
