@@ -38,7 +38,10 @@ function App() {
       />
       <Component1>Header text</Component1>
       <div className="bg-[#012746] h-[10px]"></div>
-      <div className="bg-[#123f94]">
+      <div className="flex flex-row items-center justify-center text-green-200 bg-[#7a36d9] text-xl">
+        Nice to meet you!
+      </div>
+      <div className="bg-[#012746]">
         <div className="flex flex-row justify-between ml-2 p-4 text-5xl">
           <button
             className="text-[#7a36d9] hover:text-yellow-200 mr-2"
@@ -59,8 +62,8 @@ function App() {
         </div>
       </div>
       <Component2 display={DISPLAYS[imageIndx]} />
-      <div className="bg-[#123f94] text-purple-600  text-2xl text-right p-4">
-        .
+      <div className="bg-[#7a36d9] text-xl text-green-200">
+        Next, I believe that paragraphs is a great form of self-expression.
       </div>
       <Component3>text</Component3>
       <div className="bg-[#012746] text-purple-600  text-2xl text-right">.</div>
