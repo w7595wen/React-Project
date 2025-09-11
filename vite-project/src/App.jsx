@@ -34,7 +34,7 @@ function App() {
     <div>
       <img
         className="object-cover h-[175px] w-[1400px]"
-        src="https://github.com/w87895wen/React-Project/blob/main/vite-project/images/header(800%20x%20300%20px)%20(3).png?raw=true"
+        src="https://github.com/w87895wen/React-Project/blob/main/vite-project/images/header(1100%20x%20300%20px).png?raw=true"
       />
       <Component1>Header text</Component1>
       <div className="bg-[#012746] h-[10px]"></div>
