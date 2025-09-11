@@ -1,6 +1,9 @@
 const Component5 = (props) => {
   return (
     <div className="bg-[#012746]">
+      <div className="text-[#7a36d9] text-left text-xl p-2">
+        I am on these platforms:
+      </div>
       <div className="flex flex-row">
         <div className="text-5xl p-5 mt-3 text-[#7a36d9]">
           <a href="https://github.com/w87895wen">
