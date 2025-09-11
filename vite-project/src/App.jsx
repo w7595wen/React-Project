@@ -38,7 +38,7 @@ function App() {
       />
       <Component1>Header text</Component1>
       <div className="bg-[#012746] h-[10px]"></div>
-      <div className="flex flex-row items-center justify-center text-green-200 bg-[#7a36d9] text-xl">
+      <div className="flex flex-row items-center justify-center text-green-200 bg-[#7a36d9] text-xl p-3">
         Nice to meet you!
       </div>
       <div className="bg-[#012746]">
@@ -62,8 +62,10 @@ function App() {
         </div>
       </div>
       <Component2 display={DISPLAYS[imageIndx]} />
-      <div className="bg-[#7a36d9] text-xl text-green-200">
-        Next, I believe that paragraphs is a great form of self-expression.
+      <div className="bg-[#7a36d9] text-xl text-green-200 p-3">
+        Next, I hope this section can better explain why I , with a
+        non-traditional major in Business Analytics, am serious about taking a
+        chance on this application.
       </div>
       <Component3>text</Component3>
       <div className="bg-[#012746] text-purple-600  text-2xl text-right">.</div>
