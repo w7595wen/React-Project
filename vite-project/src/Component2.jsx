@@ -3,11 +3,21 @@ const Component2 = (props) => {
   return (
     <div className=" flex flex-col items-center justify-center bg-[#012746] p-4 text-lg  text-slate-100 ">
       <div>
-        <div className="font-bold w-60">{display.q1}</div>
+        <div
+          className="font-bold w-60 underline underline-offset-4 decoration-4 decoration-yellow-200
+ hover:underline hover:decoration-[#7a36d9] hover:decoration-4"
+        >
+          {display.q1}
+        </div>
         <div className="m-3">{display.a1}</div>
       </div>
       <div>
-        <div className="font-bold w-60">{display.q2}</div>
+        <div
+          className="font-bold w-60 underline underline-offset-4 decoration-4 decoration-yellow-200
+         hover:underline hover:decoration-[#7a36d9] hover:decoration-4"
+        >
+          {display.q2}
+        </div>
         <div className="m-3">{display.a2}</div>
       </div>
       <div>

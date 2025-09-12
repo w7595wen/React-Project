@@ -15,7 +15,7 @@ const DISPLAYS = [
     a2: "Go to Summit One Vanderbilt",
     imageUrl:
       "https://github.com/w87895wen/React-Project/blob/main/vite-project/images/component2pic1.png?raw=true",
-    caption: "Photo is obtained from Unsplash, designed in Canva",
+    caption: "Photo from Unsplash, designed in Canva",
   },
   {
     q1: "Fun fact:",
