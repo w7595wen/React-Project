@@ -17,7 +17,7 @@ const Component5 = (props) => {
         </div>
       </div>
       <div className="flex flex-row justify-center items-center p-2 text-lg text-slate-100">
-        <div className="mr-3">Website developed by</div>
+        <div className="mr-3">Website designed and developed by</div>
         <i className="fa-solid fa-w mr-1"></i>
         <i className="fa-solid fa-i mr-1"></i>
         <i className="fa-solid fa-n mr-1"></i>
