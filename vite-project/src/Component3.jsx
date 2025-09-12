@@ -12,7 +12,7 @@ const Component3 = (props) => {
       />
       <img
         className="object-cover h-[350px] w-[1400px]"
-        src="https://github.com/w87895wen/React-Project/blob/main/vite-project/images/paper2(1100%20x%20300%20px).png?raw=true"
+        src="https://github.com/w87895wen/React-Project/blob/main/vite-project/images/paper2(1100%20x%20400%20px).png?raw=true"
       />
     </div>
   );

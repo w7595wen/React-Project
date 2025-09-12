@@ -24,7 +24,16 @@ const DISPLAYS = [
     a2: "Hong Kong",
     imageUrl:
       "https://github.com/w87895wen/React-Project/blob/main/vite-project/images/component2_pic2.png?raw=true",
-    caption: "Designed in Canva",
+    caption: "Graphic from Canva, designed in Canva",
+  },
+  {
+    q1: "Favourite season:",
+    a1: "Summer",
+    q2: "Favourite holiday:",
+    a2: "Christmas",
+    imageUrl:
+      "https://github.com/w87895wen/React-Project/blob/main/vite-project/images/about_me_pic3_pic.png?raw=true",
+    caption: "Photo from Canva, designed in Canva",
   },
 ];
 
