@@ -4,7 +4,7 @@ const Component2 = (props) => {
     <div className=" flex flex-col items-center justify-center bg-[#012746] p-4 text-lg  text-slate-100 ">
       <div>
         <div
-          className="font-bold w-60 underline underline-offset-4 decoration-4 decoration-yellow-200
+          className="font-bold w-60 underline underline-offset-[6px] decoration-4 decoration-yellow-200
  hover:underline hover:decoration-[#7a36d9] hover:decoration-4"
         >
           {display.q1}
@@ -13,7 +13,7 @@ const Component2 = (props) => {
       </div>
       <div>
         <div
-          className="font-bold w-60 underline underline-offset-4 decoration-4 decoration-yellow-200
+          className="font-bold w-60 underline underline-offset-[6px] decoration-4 decoration-yellow-200
          hover:underline hover:decoration-[#7a36d9] hover:decoration-4"
         >
           {display.q2}
